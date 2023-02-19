@@ -1,0 +1,22 @@
+.text{
+    align-items: center;
+    color: rgb(243, 22, 195);
+}
+.center{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20%;
+    line-height: 10px;
+    
+}
+.back{
+    background: linear-gradient(to top left, powderblue, pink);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.but{
+    width:150px; 
+    padding-top:5px;
+    padding-bottom:5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body class="back">
+        <div class="center">
+            <h2  >
+                <b>
+                Выберите более подходящее описание к увиденному тексту.
+            </b>
+            </h2>
+            <h1  >
+                <i>
+                    {{ text.text }}
+            </i>
+        </h1>
+            <div  >
+                <div  >
+                    <form>
+                        <button type="submit" name="name" value="yes" class="but">
+                            yes
+                        </button>
+            
+                        <button type="submit" name="name" value="no"  class="but">
+                            no
+                        </button>
+                    </form>
+                </div>
+                <div>
+                <h3  >
+                    P.S :
+                </h3>
+                <p  >
+                    Если имеется только одно мнение - текст предвзят (Примеры: Я думаю... , Автор/Ученый сказал... и т.д)
+                </p>
+                <p  >
+                    Рассматривается несколько точек зрения - текст непредвзят (Примеры: Сошлись на мнении... , Автор/Ученый сказал что-то - другой его опровергнул и т.д)
+                </p>
+                <p>
+                    Говорится об известном факте - факт(Примеры: Яблоко - фрукт , клубника - ягода и т.д)
+                </p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>
